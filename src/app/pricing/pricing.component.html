@@ -1,179 +1,357 @@
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-    <symbol id="check" viewBox="0 0 16 16">
-      <title>Check</title>
-      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-    </symbol>
-  </svg>
-  
-  <div class="container py-3">
-    <header>
-      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-          <span class="fs-4">Pricing example</span>
-        </a>
-  
-        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Features</a>
-          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Enterprise</a>
-          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Support</a>
-          <a class="py-2 text-dark text-decoration-none" href="#">Pricing</a>
-        </nav>
-      </div>
-  
-      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal">Pricing</h1>
-        <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
-      </div>
-    </header>
-  
-    <main>
-      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+  <main>
+      <div class=" resizing row row-cols-5 row-cols-md-4 bg-dark">
         <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="freeheight card  mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Free</h4>
+              <a href="#" class="freebox btn btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Free</a>
+              <p></p>
+              <h6>Free knowledge sharing and collaboration platform
+
+
+              </h6>
+
+              
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
+              <h1 class="monprice card-title pricing-card-title">Free<small class="text-muted fw-light"></small></h1>
+
+              <h5 class="info">No credit card required
+
+</h5>
+                      <ul class="disc list-unstyled mt-3 mb-4">
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-megaphone-fill" viewBox="0 0 16 16">
+                  <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z"/>
+                </svg> 
+                   ChatOps integrations - Slack & Microsoft Teams
+                  </div>
+              </li>
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-lock2-fill" viewBox="0 0 16 16">
+                  <path d="M7 6a1 1 0 0 1 2 0v1H7V6z"/>
+                  <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-2 6v1.076c.54.166 1 .597 1 1.224v2.4c0 .816-.781 1.3-1.5 1.3h-3c-.719 0-1.5-.484-1.5-1.3V8.3c0-.627.46-1.058 1-1.224V6a2 2 0 1 1 4 0z"/>
+                </svg>Your own private space hosted on stackoverflow.com
+                  </div>
+              </li>
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-folder-fill" viewBox="0 0 16 16">
+                  <path d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139z"/>
+                </svg>Structured and searchable knowledge base
+                  </div>
+              </li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              <button type="button" class="freeButton freebox w-100 btn btn-lg">Create a free team</button>
+              <p></p>
+              <p style="color: grey;text-align: center;">Always free up to 50 teammates
+
+
+              </p>
             </div>
           </div>
         </div>
+
+
+
+
+
+
+        
+
+
+
+
+
         <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="basicheight card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Pro</h4>
+              <a href="#" class="basicbox btn btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Basic</a>
+              <p></p>
+              <h6>Centralized knowledge and collaboration platform for small and growing teams
+              </h6>
+
+              
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
+              <h1 class="monprice card-title pricing-card-title">$7 USD<small class="text-muted fw-light"></small></h1>
+
+              <h5 class="info">per teammate / month
+</h5>
+                      <ul class="disc list-unstyled mt-3 mb-4">
+                        <li>
+                          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
+                              <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                            </svg>Single sign-on (SSO) with SAML + Okta integration
+
+                          </div>
+                      </li>
+                      <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-megaphone-fill" viewBox="0 0 16 16">
+                  <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z"/>
+                </svg> 
+                   ChatOps integrations - Slack & Microsoft Teams
+                  </div>
+              </li>
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-lock2-fill" viewBox="0 0 16 16">
+                  <path d="M7 6a1 1 0 0 1 2 0v1H7V6z"/>
+                  <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-2 6v1.076c.54.166 1 .597 1 1.224v2.4c0 .816-.781 1.3-1.5 1.3h-3c-.719 0-1.5-.484-1.5-1.3V8.3c0-.627.46-1.058 1-1.224V6a2 2 0 1 1 4 0z"/>
+                </svg>Your own private space hosted on stackoverflow.com
+                  </div>
+              </li>
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-folder-fill" viewBox="0 0 16 16">
+                  <path d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139z"/>
+                </svg>Structured and searchable knowledge base
+                  </div>
+              </li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+              <button type="button" class="basicButton basicbox w-100 btn btn-lg">Get started</button>
+              <p></p>
+              <p style="color: grey;text-align: center;">Up to 250 teammates
+
+              </p>
             </div>
           </div>
         </div>
+
+
+
         <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm border-primary">
-            <div class="card-header py-3 text-white bg-primary border-primary">
-              <h4 class="my-0 fw-normal">Enterprise</h4>
+          <div class="buisnessheight card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h6>RECOMMENDED
+
+
+              </h6>
+              <a href="#" class="buisnessbox btn btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Business</a>
+              <p></p>
+              <h6>For small and medium sized businesses seeking advanced administrative tools
+
+
+              </h6>
+
+              
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
+              <h1 class="monprice card-title pricing-card-title">$14 USD<small class="text-muted fw-light"></small></h1>
+
+              <h5 class="info">per teammate / month
+</h5>
+                      <ul class="disc list-unstyled mt-3 mb-4">
+                        <li>
+                          <div class="d-grid gap-2 d-sm-flex justify-content-sm-right" style="color: grey;">
+        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                              <path d="M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z"/>
+                            </svg>All the features of Basic plus…
+
+
+                          </div>
+                      </li>
+                      <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-right">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-files" viewBox="0 0 16 16">
+                      <path d="M13 0H6a2 2 0 0 0-2 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 13V4a2 2 0 0 0-2-2H5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM3 4a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4z"/>
+                    </svg>
+                    Long-form knowledge with Articles
+
+                  </div>
+              </li>
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-right">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+                      <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+                      <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                    </svg>Additional integrations — ChatOps, Jira, GitHub & Okta
+
+                  </div>
+              </li>
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-right">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-collection-fill" viewBox="0 0 16 16">
+                      <path d="M0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"/>
+                    </svg>Group content together into Collections
+
+                  </div>
+              </li>
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-right">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-clipboard-data" viewBox="0 0 16 16">
+                      <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z"/>
+                      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                    </svg>Usage and adoption metrics
+
+
+                  </div>
+              </li>
+
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-right">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-shield-fill-plus" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm-.5 5a.5.5 0 0 1 1 0v1.5H10a.5.5 0 0 1 0 1H8.5V9a.5.5 0 0 1-1 0V7.5H6a.5.5 0 0 1 0-1h1.5V5z"/>
+                    </svg>Priority customer support
+
+
+                  </div>
+              </li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+
+              
+              <button type="button" class="buisnessButton buisnessbox w-100 btn btn-lg">Get started</button>
+              <p></p>
+              <p style="color: grey;text-align: center;">Unlimited teammates
+
+              </p>
             </div>
           </div>
         </div>
-      </div>
-  
-      <h2 class="display-6 text-center mb-4">Compare plans</h2>
-  
-      <div class="table-responsive">
-        <table class="table text-center">
-          <thead>
-            <tr>
-              <th style="width: 34%;"></th>
-              <th style="width: 22%;">Free</th>
-              <th style="width: 22%;">Pro</th>
-              <th style="width: 22%;">Enterprise</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row" class="text-start">Public</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start">Private</th>
-              <td></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-          </tbody>
-  
-          <tbody>
-            <tr>
-              <th scope="row" class="text-start">Permissions</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start">Sharing</th>
-              <td></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start">Unlimited members</th>
-              <td></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start">Extra security</th>
-              <td></td>
-              <td></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+
+
+        <div class="col">
+          <div class="enterpriseheight card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <a href="#" class="enterprisebox btn btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Enterprise
+              </a>
+              <p></p>
+              <h6>For medium to large businesses with additional security, configurability and content management needs
+
+
+
+
+
+              </h6>
+
+              
+            </div>
+            <div class="card-body">
+              <h1 class="monprice card-title pricing-card-title">Custom pricing
+                <small class="text-muted fw-light"></small></h1>
+
+              <h5 class="info">Let’s talk about what you need
+
+</h5>
+                      <ul class="disc list-unstyled mt-3 mb-4">
+                        <li>
+                          <div class="d-grid gap-2 d-sm-flex justify-content-sm-right" style="color: grey;">
+        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                              <path d="M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z"/>
+                            </svg>Premium features of Business plus…
+
+
+
+                          </div>
+                      </li>
+                      <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-right">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                      <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                      <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                      <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                    </svg>
+                    Unlimited Teams within your instance
+
+
+                  </div>
+              </li>
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-right">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cloud-arrow-down-fill" viewBox="0 0 16 16">
+                      <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 6.854-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5a.5.5 0 0 1 1 0v3.793l1.146-1.147a.5.5 0 0 1 .708.708z"/>
+                    </svg>Flexible hosting options — cloud or on-premises
+
+
+                  </div>
+              </li>
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-right">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
+                      <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+                    </svg>Robust read and write API
+
+
+                  </div>
+              </li>
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-right">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-question-square-fill" viewBox="0 0 16 16">
+                      <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"/>
+                    </svg>Your own customer success and community building representative
+
+
+
+                  </div>
+              </li>
+
+              <p></p>
+                <li>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-right">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>99.5% uptime SLA and priority support
+
+
+
+                  </div>
+                </li>
+              </ul>
+
+              
+              <button type="button" class="enterpriseButton enterprisebox w-100 btn btn-lg">Request a demo</button>
+              <p></p>
+              <p style="color: grey;text-align: center;">Unlimited teammates
+
+              </p>
+            </div>
+            
+          
+          </div>
+        </div>
+        
+     
+        
+      </div>    
+      
     </main>
   
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
-      <div class="row">
-        <div class="col-12 col-md">
-          <img class="mb-2" src="/docs/{{< param docs_version >}}/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
-          <small class="d-block mb-3 text-muted">&copy; 2017–{{< year >}}</small>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </div>
+   
+

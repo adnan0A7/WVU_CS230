@@ -1,0 +1,98 @@
+.freeheight{
+    margin-top: 30%;
+   }
+
+.buisnessheight{
+    margin-top: 17%;
+    
+}
+.basicheight{
+    margin-top: 30%;
+   }
+
+
+
+.enterpriseheight{
+    margin-top: 30%;
+
+}
+
+.freeButton{
+    margin-top: 40%;
+
+}
+.basicButton{
+    margin-top: 20%;
+
+}
+.buisnessButton{
+    margin-top: 22%;
+
+}
+.enterpriseButton{
+    margin-top: 3%;
+
+}
+.freebox{
+
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+
+    background-color:rgb(255, 102, 0);
+}
+
+.basicbox{
+
+    font-weight: bold;
+    color: rgb(32, 30, 30);
+    font-family:'Times New Roman', Times, serif;
+
+    background-color:rgb(145, 144, 143);
+}
+
+.buisnessbox{
+
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+
+    background-color:rgb(3, 3, 3);
+}
+.enterprisebox{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+
+    background-color:rgb(70, 0, 117);
+}
+
+h6{
+    color: rgb(0, 0, 0);
+}
+
+.resizing{
+
+    width: 1530px;
+    align-items: center;
+}
+
+.monprice{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.info{
+
+    font-size: 15px;
+    color: grey;
+    font-family:inherit;
+}
+
+.disc{
+color: black;
+}
+
+.special{
+    height: 90;
+}

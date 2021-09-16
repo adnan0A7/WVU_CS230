@@ -6,4 +6,9 @@ import { Component } from "@angular/core";
 })
 export class HeroComponent{
 
+firstcoloumn: string = "Increase productivity"
+secondcoloumn: string = "Accelerate time to market"
+thirdcoloumn: string = "Protect institutional knowledge"
+
+
 }
