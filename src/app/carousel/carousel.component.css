@@ -19,7 +19,9 @@ body {
   }
 
 .indicators{
-    background-color:rgb(131, 130, 130);
+border: #000000;
+
+
 }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
