@@ -1,5 +1,24 @@
 <div class="row">
 
+
+
+    <div class="d-flex flex-row text-center justify-content-center bg-dark text-secondary">
+
+    <div *ngFor = "let welcome of welcomecards;">
+        <app-welcome icon ={{welcome.icon}}
+        
+        title ={{welcome.title}}
+        
+        button ={{welcome.button}}
+        
+        link ={{welcome.link}}>
+            
+            
+            Loading</app-welcome>
+
+    </div>
+</div>
+
     <app-carousel>Loading</app-carousel>
 
     <app-hero>Loading</app-hero>

@@ -15,6 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { HomeLayoutComponent } from './home-layout/home-layout.component';
 import { BasicSubscribtionComponent } from './basic-subscribtion/basic-subscribtion.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 @NgModule({
@@ -30,7 +31,9 @@ import { BasicSubscribtionComponent } from './basic-subscribtion/basic-subscribt
     LogInComponent, 
     TeamsComponent,
     BasicSubscribtionComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    WelcomeComponent,
+    
 
   ],
   imports: [
