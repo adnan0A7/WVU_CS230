@@ -16,6 +16,9 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { HomeLayoutComponent } from './home-layout/home-layout.component';
 import { BasicSubscribtionComponent } from './basic-subscribtion/basic-subscribtion.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import {HttpClientModule} from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
+
 
 
 @NgModule({
@@ -33,12 +36,14 @@ import { WelcomeComponent } from './welcome/welcome.component';
     BasicSubscribtionComponent,
     HomeLayoutComponent,
     WelcomeComponent,
+    UserInfoComponent
     
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
