@@ -14,4 +14,8 @@ export class WelcomeComponent{
     button! : string;
     @Input()
     link! : string;
+    @Input()
+    color! : string;
+     @Input()
+     bcolor! : string;
 }

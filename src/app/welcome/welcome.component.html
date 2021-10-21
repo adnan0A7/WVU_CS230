@@ -1,16 +1,17 @@
 <div class="container bg-dark text-center" style="margin-top: 140px; margin-bottom: 100px; width: 10x; text-align: center;" >
 
  
-    <div class="card m-1" style="width: 26rem;">
-        <div class="card-body">
-            <img src={{icon}} width="45" height="56" alt="">
+  <div class="card m-2: blue" style="width: 26rem;"  [style.background-color] = color>
+      <div class="card-body">
+          <img src={{icon}} width="45" height="50" alt="">
 
-          <h6 class="card-title text-secondary">{{title}}</h6>
-          <button type="button" class="btn">{{button}}</button>
-          <h6>or<u> {{link}}</u></h6>
-        </div>
+          
+        <h6 class="card-title text-black">{{title}}</h6>
+        <button type="button" class="btn text-white" [style.background-color] = bcolor>{{button}}</button>
+        <h6>or<u href = "#"> {{link}}</u></h6>
       </div>
-    
+    </div>
+  
 
 
 

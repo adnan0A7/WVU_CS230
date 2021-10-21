@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { mock_card } from "../welcome/mock-welcome";
-import { Welcome } from "../welcome/welocme.model";
+import { Welcome } from "./welcome.model"
+import { WelcomeService } from "./user-info.service";
 
 @Component({
     selector:'app-home-layout',
@@ -11,11 +11,19 @@ export class HomeLayoutComponent{
 
     welcomecards : Welcome[] = [];
 
-    constructor(){
-
-        for( var welcome of mock_card)
-
-        this.welcomecards.push(new Welcome(welcome) );
+    constructor(private welcomeService : WelcomeService ){
 
     }
-}
+
+
+    ngOnInit(): void {
+        this.welcomeService.getUserInfo().subscribe(data=> {
+          console.log(data);
+          for(var item in data){
+            console.log(data[item]);
+           this.welcomecards.push(new Welcome(data[item]));
+            
+          }
+        })
+
+    }}
