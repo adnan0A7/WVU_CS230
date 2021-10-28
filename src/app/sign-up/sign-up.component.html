@@ -21,27 +21,28 @@
 
 
 
-    <form class = "bg-white">
+    <form class = "bg-white" #postForm ="ngForm" (ngSubmit)="onRegister(postForm.value)">
+      
 
      
         <h6 strong class=" fw-normal text-black"> Display name</h6>
   
         <div class="form-floating">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" ngModel name = "DisplayName">
         
         </div>
   <p></p>
       <h6 strong class=" fw-normal text-black"> Email</h6>
   
       <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" ngModel name = "Email">
       
       </div>
 <p></p>
       <h6 strong class=" fw-normal text-black"> Password</h6>
 
       <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" ngModel name = "Password">
     
       </div>
       <h6 class=" fw-normal text-secondary"> Passwords must contain at least eight characters, including at least 1 letter and 1 number.
@@ -57,7 +58,8 @@
         </label>
       </div>
       <button class="w-100 btn btn-lg text-white " style="background-color: rgb(45, 182, 182) ;" type="submit">Sign up</button>
-    </form>
+    
+  </form>
   </main>
 
 </div>

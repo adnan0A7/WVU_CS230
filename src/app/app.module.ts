@@ -18,6 +18,7 @@ import { BasicSubscribtionComponent } from './basic-subscribtion/basic-subscribt
 import { WelcomeComponent } from './welcome/welcome.component';
 import {HttpClientModule} from '@angular/common/http';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -43,7 +44,8 @@ import { UserInfoComponent } from './user-info/user-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
