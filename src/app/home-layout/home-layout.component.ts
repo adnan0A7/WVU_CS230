@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import { Welcome } from "./welcome.model"
 import { WelcomeService } from "./user-info.service";
+import { DatabaseService } from "./database.service";
 
 @Component({
     selector:'app-home-layout',
@@ -11,10 +12,10 @@ export class HomeLayoutComponent{
 
     welcomecards : Welcome[] = [];
 
-    constructor(private welcomeService : WelcomeService ){
-
+   
+    constructor(private welcomeService: WelcomeService, private dbService:DatabaseService) { 
+      dbService.showData();
     }
-
 
     ngOnInit(): void {
         this.welcomeService.getUserInfo().subscribe(data=> {

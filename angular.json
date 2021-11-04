@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "StackOverflow:build:production",
+            "firebaseProject": "stackoverflow-app-d553f",
+            "firebaseHostingSite": "stackoverflow-app-d553f"
+          }
         }
       }
     }

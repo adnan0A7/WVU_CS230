@@ -16,3 +16,19 @@ export class Welcome{
 
                }
 }
+export class SignUp{
+    DisplayName: string;
+    Email: String;
+    Password: String;
+
+
+
+    constructor({DisplayName, Email,Password}:
+        
+        {DisplayName:string, Email:string, Password: string}){
+        this.DisplayName = DisplayName;
+        this.Email = Email;
+        this.Password = Password;
+
+               }
+}

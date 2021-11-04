@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "stackoverflow-app-d553f": {
+      "hosting": {
+        "StackOverflow": [
+          "stackoverflow-app-d553f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "stackoverflow-app-d553f"
+  }
+}
