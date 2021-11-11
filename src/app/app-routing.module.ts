@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BasicSubscribtionComponent } from './basic-subscribtion/basic-subscribtion.component';
 import { HomeLayoutComponent } from './home-layout/home-layout.component';

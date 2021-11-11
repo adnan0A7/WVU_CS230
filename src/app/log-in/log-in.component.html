@@ -21,24 +21,41 @@
 
 
 
-    <form class = "bg-white">
+    <form class = "bg-white" #authForm= "ngForm" (ngSubmit) = "onSubmit(authForm)">
 
      
 
       <h6 strong class=" fw-normal text-black"> Email</h6>
   
       <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <input type="email" class="form-control" id="floatingInput" placeholder="Email"
+         
+        ngModel name = "email"
+        required email
+        
+        >
       </div>
 <p></p>
       <h6 strong class=" fw-normal text-black"> Password</h6>
 
       <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+        ngModel name = "password"
+        required password minlength="8"
+        
+        >
       </div>
   
       
-      <button class="w-100 btn btn-lg text-white " style="background-color: rgb(45, 182, 182) ;" type="submit">Log in</button>
+      <button class="w-100 btn btn-lg text-white " style="background-color: rgb(45, 182, 182) ;" type="submit" 
+      [disabled] = "!authForm.valid" (click)="buttonClicked='SignUp'"
+      
+      >Sign up</button>
+<p></p>
+      <button class="w-100 btn btn-lg text-white " style="background-color: rgb(45, 182, 182) ;" type="submit" 
+      [disabled] = "!authForm.valid" (click)="buttonClicked='Login'"
+      
+      >Log in</button>
     </form>
   </main>
 
